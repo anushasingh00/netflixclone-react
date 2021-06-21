@@ -1,4 +1,8 @@
+
+
+
 {
+"homepage": "https://i(anushasingh00).github.io/netflixclone-react",
   "name": "clone1",
   "version": "0.1.0",
   "private": true,
@@ -6,9 +10,12 @@
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
+    "axios": "^0.21.1",
+    "movie-trailer": "^2.1.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
+    "react-youtube": "^7.13.1",
     "web-vitals": "^1.1.2"
   },
   "scripts": {
@@ -16,6 +23,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
+	"deploy":"gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -34,5 +42,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.2"
   }
 }
